@@ -9,7 +9,7 @@ let goods = [
     {id: 3, name: 'стол', price: 204},
 ]
 
-// Middleware для парсинга JSON
+//Middleware для парсинга JSON
 app.use(express.json());
 // Главная страница
 app.get('/', (req, res) => {

@@ -1,0 +1,21 @@
+{
+  "name": "front-back-pr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeno921/front-back-pr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/makeno921/front-back-pr/issues"
+  },
+  "homepage": "https://github.com/makeno921/front-back-pr#readme"
+}

@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 app.post('/goods', (req, res) => {
     const {name, price} = req.body;
     const newGoods = {
-        id: Date.now(),
+        id: goods.length + 1,
         name,
         price,
     };
@@ -52,7 +52,7 @@ app.patch('/goods/:id', (req,res) => {
 //удаление товара по id
 app.delete('/goods/:id', (req,res) => {
     goods=goods.filter(g=>g.id != req.params.id);
-    res.send('OK');
+    res.send('ТОвар удален');
 });
 
 //запуск
